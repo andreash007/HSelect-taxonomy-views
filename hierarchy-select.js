@@ -9,8 +9,8 @@
 (function ($) {
 	Drupal.behaviors.filterHierarchySelect = {
 		attach: function () {
-			if($('#edit-tid-wrapper').is(':visible'))
-				convertSelectElement($('#edit-tid'));
+			if($('#edit-field-categories').is(':visible'))
+				convertSelectElement($('#edit-field-categories'));
 			// go.
 			function convertSelectElement(originalSelect) {
 				// hide original list (which has depth)
