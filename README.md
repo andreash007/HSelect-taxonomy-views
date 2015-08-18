@@ -6,12 +6,12 @@ Original post is here https://www.drupal.org/node/1758844#comment-6418926
 It transforms a select list to a multiple select list with sub categories.
 You need to configure Taxonomy Select to display your list like this:
 
-Cat 1
--Subcat 11
--Subcat 12
-Cat 2
--Subcat 21
--Subcat 22
+Cat 1 <br>
+-Subcat 11 <br>
+-Subcat 12 <br>
+Cat 2 <br>
+-Subcat 21 <br>
+-Subcat 22 <br>
 
 This workaround use the dash separator to parse the vocabulary structure; 
 I tweaked it a bit to make it work on most browsers; 
